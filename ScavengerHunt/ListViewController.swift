@@ -11,7 +11,9 @@ import UIKit
 
 class ListViewController: UITableViewController {
     
-    var itemsList = ["Cat", "Bird", "Brick"]
+    var itemsList = [ScavengerHuntItem(name: "😸"),
+                     ScavengerHuntItem(name: "Bird"),
+                     ScavengerHuntItem(name: "👻")]
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itemsList.count
@@ -21,8 +23,9 @@ class ListViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("ListViewCell", forIndexPath: indexPath) as! UITableViewCell
         
-        cell.textLabel?.text = itemsList[indexPath.row]
-        
+        let item = itemsList[indexPath.row]
+        cell.textLabel?.text = item.name
+                
         return cell
     }
     
