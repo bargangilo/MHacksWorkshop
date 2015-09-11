@@ -15,6 +15,7 @@
 		1827518C1BA242FB00419877 /* ScavengerHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827518B1BA242FB00419877 /* ScavengerHuntTests.swift */; };
 		182751961BA258FD00419877 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182751951BA258FD00419877 /* ListViewController.swift */; };
 		182751981BA2723100419877 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182751971BA2723100419877 /* ScavengerHuntItem.swift */; };
+		1827519A1BA281D800419877 /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182751991BA281D800419877 /* ItemsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		1827518B1BA242FB00419877 /* ScavengerHuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerHuntTests.swift; sourceTree = "<group>"; };
 		182751951BA258FD00419877 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		182751971BA2723100419877 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		182751991BA281D800419877 /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				182751751BA242FB00419877 /* AppDelegate.swift */,
 				182751771BA242FB00419877 /* AddViewController.swift */,
 				182751791BA242FB00419877 /* Main.storyboard */,
+				182751991BA281D800419877 /* ItemsManager.swift */,
 				182751971BA2723100419877 /* ScavengerHuntItem.swift */,
 				182751951BA258FD00419877 /* ListViewController.swift */,
 				1827517C1BA242FB00419877 /* Images.xcassets */,
@@ -222,6 +225,7 @@
 				182751761BA242FB00419877 /* AppDelegate.swift in Sources */,
 				182751981BA2723100419877 /* ScavengerHuntItem.swift in Sources */,
 				182751961BA258FD00419877 /* ListViewController.swift in Sources */,
+				1827519A1BA281D800419877 /* ItemsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
