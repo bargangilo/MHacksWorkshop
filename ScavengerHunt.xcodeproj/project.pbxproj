@@ -13,6 +13,7 @@
 		1827517D1BA242FB00419877 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827517C1BA242FB00419877 /* Images.xcassets */; };
 		182751801BA242FB00419877 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1827517E1BA242FB00419877 /* LaunchScreen.xib */; };
 		1827518C1BA242FB00419877 /* ScavengerHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827518B1BA242FB00419877 /* ScavengerHuntTests.swift */; };
+		182751961BA258FD00419877 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182751951BA258FD00419877 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		182751851BA242FB00419877 /* ScavengerHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScavengerHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1827518A1BA242FB00419877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1827518B1BA242FB00419877 /* ScavengerHuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerHuntTests.swift; sourceTree = "<group>"; };
+		182751951BA258FD00419877 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				182751751BA242FB00419877 /* AppDelegate.swift */,
 				182751771BA242FB00419877 /* ViewController.swift */,
 				182751791BA242FB00419877 /* Main.storyboard */,
+				182751951BA258FD00419877 /* ListViewController.swift */,
 				1827517C1BA242FB00419877 /* Images.xcassets */,
 				1827517E1BA242FB00419877 /* LaunchScreen.xib */,
 				182751731BA242FB00419877 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				182751781BA242FB00419877 /* ViewController.swift in Sources */,
 				182751761BA242FB00419877 /* AppDelegate.swift in Sources */,
+				182751961BA258FD00419877 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
